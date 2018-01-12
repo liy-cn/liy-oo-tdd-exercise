@@ -14,7 +14,7 @@ public class AppTest {
 
     @Test
     public void calc_rectangle_area(){
-        Rectangle rectangle= new Rectangle();
+        Rectangle rectangle= new Rectangle(5,4);
         ShapeParam shapeParam = new ShapeParam();
         shapeParam.width = 5;
         shapeParam.height = 4;
