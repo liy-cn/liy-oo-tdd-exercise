@@ -14,12 +14,9 @@ public class Rectangle implements Shape {
     this.height = height;
   }
 
-  public double calcArea(ShapeParam shapeParam) {
-    if (shapeParam != null) {
-      int width = shapeParam.width;
-      int height = shapeParam.height;
-      return width * height;
-    }
-    return 0;
+  public double calcArea() {
+    int width = this.width;
+    int height = this.height;
+    return width * height;
   }
 }
